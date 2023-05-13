@@ -15,4 +15,8 @@ var age     =   ourDog.age;
 //properties with empty space into the declaration, you can acces using brackets
 var comida  =   ourDog["the food"]; 
 
-console.log(nombre,age, comida);
+//we can overwrite object's properties with the assigning simbol "=" 
+ ourDog.legs = "2";
+
+
+console.log(nombre,age, ourDog.legs);
