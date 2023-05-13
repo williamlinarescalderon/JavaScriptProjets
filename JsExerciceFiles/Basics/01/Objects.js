@@ -8,6 +8,9 @@ var ourDog = {
     "the food": "meat"
 };
 
+//to add new properties you can use the braket simbol []
+ourDog['color'] = "gold";
+
 //acces to the properties 
 //properties witout space into the name, you can access with the dot 
 var nombre  =   ourDog.name;
@@ -19,4 +22,4 @@ var comida  =   ourDog["the food"];
  ourDog.legs = "2";
 
 
-console.log(nombre,age, ourDog.legs);
+console.log(nombre,age, ourDog.legs, ourDog.color);
