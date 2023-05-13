@@ -18,3 +18,15 @@ for(var i= 0; i<5; i++){
 }
 
 console.log(otherArray);
+
+//--------------------------------
+
+ otherArray = [];
+
+ //decrasing loop
+for(var i= 10; i>0; i -= 2){
+
+        otherArray.push(i);
+}
+
+console.log(otherArray);
