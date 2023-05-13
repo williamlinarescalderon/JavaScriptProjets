@@ -7,3 +7,14 @@ while(i < 5){
 }
 
 console.log(myArray);
+
+//--------------------------------
+
+var otherArray = [];
+
+for(var i= 0; i<5; i++){
+
+        otherArray.push(i);
+}
+
+console.log(otherArray);
